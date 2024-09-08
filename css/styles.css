@@ -3,6 +3,32 @@ body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
 }
+.big-container{
+  width: 1158px;
+  
+  
+}
+
+
+header{
+  width: 1440px;
+  height: 72px;
+  border-bottom: 1px solid #e7e9fc;
+  display: flex;
+
+}
+.container-head{
+  width: 1440px;
+  height: 72px;
+  display: flex;
+  
+}
+.logo-div{
+  width: 115px;
+  height:24px;
+  margin-top:24px;
+  margin-left: 156px;
+}
 .page-logo-text {
   font-weight: 700;
   font-family: "Raleway", sans-serif;
@@ -13,6 +39,14 @@ body {
 }
 header a span {
   color: #4d5ae5;
+}
+.page-menu-list{
+  display: flex;
+  width: 261px;
+  height: 24px;
+  margin-top: 24px;
+  margin-left: 76px;
+  gap: 40px;
 }
 .page-menu-list li {
   list-style-type: none;
@@ -31,6 +65,16 @@ header a span {
 .page-menu-list a:focus {
   color: #404bbf;
 }
+.contacts{
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left:332px;
+  flex-grow:;
+  
+}
+
+
 address a {
   font-size: 16px;
   font-weight: 400;
@@ -47,13 +91,20 @@ address a:hover {
 }
 .button-sec {
   background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+  display: flex;
+ align-items: center;
 }
 h1 {
+  width: 496px;
+  height: 120px;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.0714285714285714;
   color: #ffffff;
   letter-spacing: 2%;
+  margin-left: 472px;
 
   text-align: center;
 }
@@ -61,8 +112,7 @@ button {
   background-color: #4d5ae5;
   width: 169px;
   height: 56px;
-  top: 428px;
-  left: 638px;
+  
   color: #ffffff;
   cursor: pointer;
   border-radius: 4px;
@@ -72,6 +122,10 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 4%;
+  
+  
+  
+
 }
 button:hover {
   background-color: #404bbf;
