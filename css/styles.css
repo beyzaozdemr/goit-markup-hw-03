@@ -3,30 +3,26 @@ body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
 }
-.big-container{
+.big-container {
   width: 1158px;
-  
-  
+  align-items: center;
 }
 
-
-header{
+header {
   width: 1440px;
   height: 72px;
   border-bottom: 1px solid #e7e9fc;
   display: flex;
-
 }
-.container-head{
+.container-head {
   width: 1440px;
   height: 72px;
   display: flex;
-  
 }
-.logo-div{
+.logo-div {
   width: 115px;
-  height:24px;
-  margin-top:24px;
+  height: 24px;
+  margin-top: 24px;
   margin-left: 156px;
 }
 .page-logo-text {
@@ -40,7 +36,7 @@ header{
 header a span {
   color: #4d5ae5;
 }
-.page-menu-list{
+.page-menu-list {
   display: flex;
   width: 261px;
   height: 24px;
@@ -65,15 +61,13 @@ header a span {
 .page-menu-list a:focus {
   color: #404bbf;
 }
-.contacts{
+.contacts {
   display: flex;
   margin-top: 24px;
   margin-bottom: 24px;
-  margin-left:332px;
-  flex-grow:;
-  
+  margin-left: 332px;
+  flex-grow: ;
 }
-
 
 address a {
   font-size: 16px;
@@ -94,7 +88,9 @@ address a:hover {
   width: 1440px;
   height: 600px;
   display: flex;
- align-items: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 h1 {
   width: 496px;
@@ -104,7 +100,6 @@ h1 {
   line-height: 1.0714285714285714;
   color: #ffffff;
   letter-spacing: 2%;
-  margin-left: 472px;
 
   text-align: center;
 }
@@ -112,7 +107,7 @@ button {
   background-color: #4d5ae5;
   width: 169px;
   height: 56px;
-  
+
   color: #ffffff;
   cursor: pointer;
   border-radius: 4px;
@@ -123,15 +118,21 @@ button {
   line-height: 1.5;
   letter-spacing: 4%;
   
-  
-  
-
 }
 button:hover {
   background-color: #404bbf;
 }
 button:focus {
   background-color: #404bbf;
+}
+.first-list-main {
+  width: 1128px;
+  height: 104px;
+  display: flex;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  margin-left: 156px;
+  margin-right: 156px;
 }
 .first-list-main li {
   list-style: none;
@@ -151,25 +152,38 @@ button:focus {
 }
 .team-class {
   background-color: #f4f4fd;
+  width: 1440px;
+  height: 732px;
 }
+
 .team-class h2 {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1111111111111112;
   text-align: center;
-  
+
   letter-spacing: 2%;
   color: #2e2f42;
 }
+.team-mates{
+  display: inline-block;
+  border-radius: 0px 0px 4px 4px;
+
+}
+
 .team-class-list li {
   list-style: none;
   background-color: #ffffff;
+  width: 264px;
+  height: 380px;
+  
+
   
 }
 .team-class-list h3 {
   font-size: 20px;
   font-weight: 500;
-  
+
   letter-spacing: 2%;
   line-height: 1.2;
   color: #2e2f42;
@@ -178,7 +192,7 @@ button:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 2%;
-  
+
   color: #434455;
 }
 .portfolio h2 {
