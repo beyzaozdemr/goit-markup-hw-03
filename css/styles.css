@@ -3,26 +3,32 @@ body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
 }
-.big-container {
-  width: 1158px;
-  align-items: center;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header {
-  width: 1440px;
-  height: 72px;
-  border-bottom: 1px solid #e7e9fc;
-  display: flex;
-}
 .container-head {
-  width: 1440px;
+  width: 1154px;
   height: 72px;
+  justify-content: space-between;
+  align-items: center;
   display: flex;
 }
 .logo-div {
   width: 115px;
   height: 24px;
-  margin-top: 24px;
   margin-left: 156px;
 }
 .page-logo-text {
@@ -36,12 +42,15 @@ header {
 header a span {
   color: #4d5ae5;
 }
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  align-items: center;
+}
 .page-menu-list {
   display: flex;
   width: 261px;
   height: 24px;
-  margin-top: 24px;
-  margin-left: 76px;
   gap: 40px;
 }
 .page-menu-list li {
@@ -63,10 +72,10 @@ header a span {
 }
 .contacts {
   display: flex;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  margin-left: 332px;
-  flex-grow: ;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  gap: 40px;
 }
 
 address a {
@@ -85,12 +94,22 @@ address a:hover {
 }
 .button-sec {
   background-color: #2e2f42;
-  width: 1440px;
   height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+.div-first {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
 h1 {
   width: 496px;
@@ -100,7 +119,6 @@ h1 {
   line-height: 1.0714285714285714;
   color: #ffffff;
   letter-spacing: 2%;
-
   text-align: center;
 }
 button {
@@ -111,13 +129,12 @@ button {
   color: #ffffff;
   cursor: pointer;
   border-radius: 4px;
-  padding: 16px, 32px, 16px, 32px;
+  padding: 16px 32px;
   gap: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 4%;
-  
 }
 button:hover {
   background-color: #404bbf;
@@ -129,10 +146,8 @@ button:focus {
   width: 1128px;
   height: 104px;
   display: flex;
-  margin-top: 120px;
-  margin-bottom: 120px;
-  margin-left: 156px;
-  margin-right: 156px;
+  margin: 120px 0px;
+  align-items: center;
 }
 .first-list-main li {
   list-style: none;
@@ -150,10 +165,16 @@ button:focus {
   letter-spacing: 2%;
   color: #434455;
 }
+
 .team-class {
   background-color: #f4f4fd;
   width: 1440px;
   height: 732px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 0;
 }
 
 .team-class h2 {
@@ -165,10 +186,16 @@ button:focus {
   letter-spacing: 2%;
   color: #2e2f42;
 }
-.team-mates{
-  display: inline-block;
-  border-radius: 0px 0px 4px 4px;
+.our-team {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
 
+.team-class-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
 }
 
 .team-class-list li {
@@ -176,9 +203,31 @@ button:focus {
   background-color: #ffffff;
   width: 264px;
   height: 380px;
-  
-
-  
+}
+.team-mates{
+  text-align: center;
+}
+.portfolio {
+  display: flex;
+  padding: 120px 0;
+  width: 1128px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.portfolio-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.portfolio-item {
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: #e7e9fc;
 }
 .team-class-list h3 {
   font-size: 20px;
@@ -195,6 +244,13 @@ button:focus {
 
   color: #434455;
 }
+
+.portfolio-images {
+  width: 360px;
+  height: 420px;
+  border: 0px, 1px, 1px, 1px solid #e7e9fc;
+}
+
 .portfolio h2 {
   font-size: 36px;
   font-weight: 700;
@@ -202,6 +258,7 @@ button:focus {
   text-align: center;
   letter-spacing: 2%;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .portfolio-list li {
   list-style: none;
@@ -212,6 +269,7 @@ button:focus {
   line-height: 1.2;
   letter-spacing: 2%;
   color: #2e2f42;
+  
 }
 .portfolio-list p {
   font-size: 16px;
@@ -221,6 +279,7 @@ button:focus {
 }
 footer {
   background-color: #2e2f42;
+  
 }
 footer a {
   font-weight: 700;
@@ -239,4 +298,11 @@ footer p {
   line-height: 1.5;
   letter-spacing: 2%;
   color: #f4f4fd;
+}
+.div-foot {
+  width: 264px;
+  height: 112px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
