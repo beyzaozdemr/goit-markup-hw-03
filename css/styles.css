@@ -20,17 +20,16 @@ li {
 }
 
 .container-head {
-  width: 1154px;
+  width: 1158px;
   height: 72px;
   justify-content: space-between;
   align-items: center;
   display: flex;
+  margin: 0 auto;
 }
-.logo-div {
-  width: 115px;
-  height: 24px;
-  margin-left: 156px;
-}
+
+  
+
 .page-logo-text {
   font-weight: 700;
   font-family: "Raleway", sans-serif;
@@ -46,6 +45,7 @@ header a span {
   width: 1158px;
   margin: 0 auto;
   align-items: center;
+  
 }
 .page-menu-list {
   display: flex;
