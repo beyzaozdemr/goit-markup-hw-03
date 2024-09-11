@@ -45,12 +45,11 @@ header a span {
   width: 1158px;
   margin: 0 auto;
   align-items: center;
-  
+
 }
 .page-menu-list {
   display: flex;
-  width: 261px;
-  height: 24px;
+
   gap: 40px;
 }
 .page-menu-list li {
@@ -168,7 +167,7 @@ button:focus {
 
 .team-class {
   background-color: #f4f4fd;
-  width: 1440px;
+  
   height: 732px;
   display: flex;
   flex-direction: column;
@@ -248,8 +247,9 @@ button:focus {
 .portfolio-images {
   width: 360px;
   height: 420px;
-  border: 0px, 1px, 1px, 1px solid #e7e9fc;
+ 
 }
+
 
 .portfolio h2 {
   font-size: 36px;
@@ -299,10 +299,8 @@ footer p {
   letter-spacing: 2%;
   color: #f4f4fd;
 }
-.div-foot {
+.foot-container{
   width: 264px;
-  height: 112px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  padding: 120px 0;
+  
 }
