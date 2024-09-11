@@ -213,6 +213,17 @@ button:focus {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.port-div{
+  width: 360px;
+  height: 120px;
+  margin-top: 0;
+  border-bottom: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+
+
+
+}
 .portfolio-list {
   display: flex;
   padding: 0;
