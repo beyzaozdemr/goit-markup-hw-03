@@ -28,8 +28,6 @@ li {
   margin: 0 auto;
 }
 
-  
-
 .page-logo-text {
   font-weight: 700;
   font-family: "Raleway", sans-serif;
@@ -45,7 +43,6 @@ header a span {
   width: 1158px;
   margin: 0 auto;
   align-items: center;
-
 }
 .page-menu-list {
   display: flex;
@@ -167,7 +164,7 @@ button:focus {
 
 .team-class {
   background-color: #f4f4fd;
-  
+
   height: 732px;
   display: flex;
   flex-direction: column;
@@ -203,7 +200,7 @@ button:focus {
   width: 264px;
   height: 380px;
 }
-.team-mates{
+.team-mates {
   text-align: center;
 }
 .portfolio {
@@ -247,9 +244,7 @@ button:focus {
 .portfolio-images {
   width: 360px;
   height: 420px;
- 
 }
-
 
 .portfolio h2 {
   font-size: 36px;
@@ -269,7 +264,6 @@ button:focus {
   line-height: 1.2;
   letter-spacing: 2%;
   color: #2e2f42;
-  
 }
 .portfolio-list p {
   font-size: 16px;
@@ -279,7 +273,6 @@ button:focus {
 }
 footer {
   background-color: #2e2f42;
-  
 }
 footer a {
   font-weight: 700;
@@ -299,8 +292,7 @@ footer p {
   letter-spacing: 2%;
   color: #f4f4fd;
 }
-.foot-container{
+.foot-container {
   width: 264px;
   padding: 120px 0;
-  
 }
