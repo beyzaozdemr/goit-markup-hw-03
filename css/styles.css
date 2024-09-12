@@ -18,6 +18,9 @@ li {
   padding: 0;
   box-sizing: border-box;
 }
+img{
+  display: block;
+}
 
 .container-head {
   width: 1158px;
