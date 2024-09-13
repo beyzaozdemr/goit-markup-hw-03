@@ -185,14 +185,14 @@ address a:hover {
   padding: 120px 0;
 }
 
-.team-class h2 {
+.our-team-h h2 {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1111111111111112;
   text-align: center;
-
   letter-spacing: 2%;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .our-team {
   display: flex;
