@@ -97,7 +97,6 @@ address a:hover {
 }
 .button-sec {
   background-color: #2e2f42;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -228,11 +227,11 @@ address a:hover {
 .workers {
   padding: 32px 0;
 }
-.workers h3 {
+.workers-name {
   text-align: center;
   margin-bottom: 8px;
 }
-.workers p {
+.job {
   text-align: center;
 }
 .portfolio {
