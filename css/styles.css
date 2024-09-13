@@ -150,21 +150,37 @@ address a:hover {
 .second-sec{
   padding: 120px 0;
 }
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+
+}
 .first-list-main {
 
   display: flex;
+  gap: 24px;
   margin: 120px 0px;
   align-items: center;
 }
-.first-list-main li {
+.four-item {
   list-style: none;
+  width: calc((100% - 72px) / 4);
 }
-.first-list-main li h3 {
+.four-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 2%;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .first-list-main li p {
   font-size: 16px;
