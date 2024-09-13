@@ -226,6 +226,8 @@ button:focus {
   border-bottom: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
+  padding: 36px 16px;
+  margin-bottom: 8px;
 
 
 
@@ -236,7 +238,8 @@ button:focus {
   margin: 0;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 20px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .team-class-list h3 {
