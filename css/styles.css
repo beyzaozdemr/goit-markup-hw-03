@@ -29,12 +29,13 @@ img {
 
 .container-head {
   width: 1158px;
+  padding: 0 15px;
   height: 72px;
   justify-content: space-between;
   align-items: center;
   display: flex;
   margin: 0 auto;
-  border-bottom: 1 px solid #e7e9fc;
+
 }
 
 .page-logo-text {
@@ -44,6 +45,7 @@ img {
   text-decoration: none;
   color: #2e2f42;
   line-height: 1.1666666666666667;
+  margin-right: 76px;
 }
 header a span {
   color: #4d5ae5;
@@ -53,21 +55,28 @@ header a span {
   margin: 0 auto;
   align-items: center;
 }
+.web-navi{
+  display: flex;
+  align-items: center;
+  
+}
 .page-menu-list {
   display: flex;
 
   gap: 40px;
 }
-.page-menu-list li {
+.navi-li{
   list-style-type: none;
+  padding: 24px 0;
 }
-.page-menu-list a {
+.web-navi-item {
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 2%;
   color: #2e2f42;
+  
 }
 .page-menu-list a:hover {
   color: #404bbf;
@@ -80,10 +89,18 @@ header a span {
   margin: 0;
   padding: 0;
   justify-content: space-between;
+  
+}
+.mail-tel{
+  display: flex;
   gap: 40px;
 }
+.contacts-item{
+  list-style-type: none;
+  
+}
 
-address a {
+.mail-tel-item {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -91,10 +108,10 @@ address a {
   color: #434455;
   text-decoration: none;
 }
-address a:focus {
+.mail-tel-item:focus {
   color: #404bbf;
 }
-address a:hover {
+.mail-tel-item:hover {
   color: #404bbf;
 }
 .button-sec {
@@ -224,7 +241,7 @@ address a:hover {
   text-align: center;
   list-style: none;
   background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
+  width:264px;
   border-radius: 0px 0px 4px 4px;
 }
 .workers {
